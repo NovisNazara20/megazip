@@ -1,0 +1,18 @@
+1668669064714	geckodriver	INFO	Listening on 127.0.0.1:58122
+1668669067829	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58123" "-no-remote" "-profile" "C:\\Users\\202100~1.MF\\AppData\\Local\\Temp\\rust_mozprofileJoBIfW"
+1668669071166	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\202100317.MF\\AppData\\Local\\Temp\\rust_mozprofileJoBIfW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58123/devtools/browser/3d7fe8e1-d24c-4147-917a-016ff2274313
+1668669082824	Marionette	INFO	Listening on port 58135
+1668669083538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668669164499	Marionette	INFO	Stopped listening on port 58135
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: OperationError: Could not move temporary file(C:\Users\202100317.MF\AppData\Local\Temp\rust_mozprofileJoBIfW\sessionCheckpoints.json.tmp) to destination(C:\Users\202100317.MF\AppData\Local\Temp\rust_mozprofileJoBIfW\sessionCheckpoints.json)
+1668669166942	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138

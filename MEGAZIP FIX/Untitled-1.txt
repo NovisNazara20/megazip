@@ -1,0 +1,13 @@
+Alamat saat ini is required.
+RT is required.
+RW is required.
+Kelurahan is required
+Kecamatan is required
+Kota is required
+Kode Pos is required
+Nomor HP is required.
+Status kepemilikan rumah is required.
+Tipe pekerjaan is required
+Sub pekerjaan is required
+Lama kerja (tahun) is required.
+Lama kerja (bulan) is required.

@@ -1,0 +1,2 @@
+Scenario type;Scenario information;Result;Ekspetasi Value;Actual Value;Process Date
+mfast.orderentry.cekDisabledButton;Cek Disabled Button Next Page 1;True;False/Button Disabled;False;2022-08-06 21:43:47
